@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
+    <title> The Witcher 3: Wild Hunt </title>
+
+    <link rel="shortcut icon" href="Imagens/icone.ico">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer.css" rel="stylesheet">
+
+    <style>
+        .footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgb(212, 12, 12)">
+
+        <img src="Imagens/logo4.png" width="52" height="52" alt="witcher" title="The Wicher 3">
+
+        <a class="text-light" href="index.html"> Página Principal </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MenuLanche" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="MenuLanche">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link " href="regioes.html"> Regiões </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="habilidades.html"> Habilidades </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="monstros.html"> Monstros </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="equipamentos.html"> Equipamentos </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        Personagens
+                    </a>
+
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="geralt.html"> Geralt de Rívia </a>
+                        <a class="dropdown-item" href="yennefer.html"> Yennefer de Vengerberg </a>
+                        <a class="dropdown-item" href="triss.html"> Triss Merigold </a>
+                        <a class="dropdown-item" href="ciri.html"> Cirilla Fiona </a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="romance.html"> Romance </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="contato.html"> Cadastro </a>
+                </li>
+
+            </ul>
+
+           <form class="form-inline">
+                <div class="input-group">
+
+                    <div class="input-group-prepend">
+
+                        <span class="input-group-text">
+                            <i class="fas fa-search "></i>
+                        </span>
+                    </div>
+                    <input type="search" class="form-control mr-sm-2" placeholder=" Buscar...">
+                    <button type="submit" class="btn btn-outline-dark"> Buscar </button>
+            </form>
+
+        </div>
+    </nav>
+    <!-- Fim Barra de navegação -->
+    <br>
+    <!-- Início do Jumbotron -->
+    <!-- Início do Formulário -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4"> <b>Torne-se um Bruxeiro </b> </h1>
+            <p class="lead"> Preencha este formulário para tornar-se um.</p>
+            <form>
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationServer01">Primeiro Nome </label>
+                        <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Primeiro Nome">
+                        <div class="valid-feedback">
+                            Insira seu nome.
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationServer02"> Sobrenome </label>
+                        <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Sobrenome">
+                        <div class="valid-feedback">
+                            Insira seu sobrenome.
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationServerUsername">Usuário </label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                            </div>
+                            <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend3" required>
+                            <div class="invalid-feedback">
+                                Por favor, preencha com um usuário válido.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer03">Cidade</label>
+                        <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Cidade" required>
+                        <div class="invalid-feedback">
+                            Por favor, informe uma cidade válida.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer04"> Estado </label>
+                        <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Estado" required>
+                        <div class="invalid-feedback">
+                            Por favor, informe um Estado válido.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                            Concordo com os termos e condições do site.
+                        </label>
+                        <div class="invalid-feedback">
+                            Você precisa concordar com os termos antes de enviar os dados.
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit"> Enviar Dados </button>
+            </form>
+
+            <hr class="featurette-divider">
+
+            <div class="embed-responsive embed-responsive-1by1">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d312779.9431310756!2d20.781016711291045!3d52.232606289062204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2zVmFyc8OzdmlhLCBQb2zDs25pYQ!5e0!3m2!1spt-BR!2sbr!4v1539734167741" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p class="lead"><i>Todos os direitos reservados®</i></p>
+    </div>
+
+</body>
+
+</html>

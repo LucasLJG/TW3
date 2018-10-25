@@ -1,0 +1,36 @@
+#ciri {
+    border-radius: 50%;
+}
+
+#Yennefer {
+    border-radius: 50%;
+}
+
+#geralt {
+    border-radius: 50%;
+}
+
+#triss {
+    border-radius: 50%;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, silver, darkred, red, black);
+}
+
+#social {
+    position: relative;
+    top: -35px;
+}
+
+#videotrailer {
+    width: 730px;
+    height: auto;
+    max-width: 100%;
+}
+
+#mapa {
+    width: auto;
+    height: auto;
+
+}
