@@ -1,36 +1,56 @@
 #ciri {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 #Yennefer {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 #geralt {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 #triss {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 body {
-    background-image: linear-gradient(to bottom right, silver, darkred, red, black);
+  background-image: linear-gradient(to bottom right, silver, darkred, red, black);
 }
 
 #social {
-    position: relative;
-    top: -35px;
+  position: relative;
+  top: -35px;
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 #videotrailer {
-    width: 730px;
-    height: auto;
-    max-width: 100%;
+  width: 730px;
+  height: auto;
+  max-width: 100%;
 }
 
 #mapa {
-    width: auto;
-    height: auto;
-
+  width: auto;
+  height: auto;
 }
+
+/* link que ainda não foi visitado */
+a:link {
+   color: black;
+}
+
+/* link que foi visitado */
+a:visited {
+    color: black;
+}
+
+/* mouse over */
+a:hover {
+    color: #000000;
+}
+
+/* link selecionado */
+a:active {
+    color: black;
